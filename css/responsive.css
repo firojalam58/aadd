@@ -1,0 +1,478 @@
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .details {
+        margin-left: 10px;
+        padding-top: 70px;
+    }
+
+    .about_btn {
+        padding-left: 95px;
+    }
+
+    .counter_up p {
+        font-size: 18px;
+    }
+   
+    .contract_icon a {
+        margin-left: 22px;
+        font-size: 14px;
+    }
+
+
+ }
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+   .navbar{
+       
+       text-align: center;
+   }
+   .navbar-nav{
+    background: #FFB400;
+       width: 30%;
+   }
+   .nav-link:hover::before{
+    width: 0%;
+    opacity: 0;
+}
+   .nav-item{
+    padding: 10px 10px;
+    text-align: left;
+   }
+   .nav-link{
+       font-size: 18px;
+       color: #000;
+   }
+   .nav-link:hover{
+       padding-left: 10px;
+       color: #000;
+    }
+    #banner_area {
+        height: 550px;
+    }
+
+    .banner_txt {
+        padding-top: 25%;
+    }
+
+    .title {
+        padding: 30px 0 55px;
+    }
+
+    .about_img {
+        margin-left: 100px;
+    }
+
+
+.about_btn {
+    padding: 0px 190px;
+    padding-top: 14px;
+}
+
+.cont_from {
+	margin-bottom: 20px;
+}
+
+.form-controls {
+	margin-top: 10px;
+	width: 78%;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.frm_icons {
+	left: 40px;
+	top: 30px;
+	font-size: 18px;
+}
+
+.contract_btns {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.pera p {
+	font-size: 18px;
+}
+
+.contract_icon a {
+	font-size: 20px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+.contract_icon a span {
+	color:#FFB400;
+	margin-left: 10px;
+}
+
+
+ }
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .navbar{
+       
+        text-align: center;
+    }
+    .navbar-nav{
+     background: #FFB400;
+        width: 35%;
+    }
+    .nav-link:hover::before{
+     width: 0%;
+     opacity: 0;
+ }
+    .nav-item{
+     padding: 10px 10px;
+     text-align: left;
+    }
+    .nav-link{
+        font-size: 18px;
+        color: #000;
+    }
+    .nav-link:hover{
+        padding-left: 10px;
+        color: #000;
+     }
+
+    #banner_area {
+        height: 400px;
+    }
+
+    .banner_txt {
+        padding-top: 15%;
+    }
+    .banner_btn {
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+
+    .banner_btns .btns {
+        display: block;
+        position: relative;
+        z-index: 99;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+
+    .banner_btns .btns2 {
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        padding: 30px 0 55px;
+    }
+
+    .title h2 {
+        font-size: 45px;
+    }
+
+
+    .title_p::before {
+        left: -25px;
+        width: 20px;
+        height: 2px;
+    }
+
+    .title_p::after {
+        right: -25px;
+        width: 20px;
+        height: 2px;
+    }
+
+    .trt h2 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .portfolio_btn .gal_btn {
+        padding: 10px 9px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .single_img {
+        margin-bottom: 30px !important;
+    }
+
+    .blog_titles h5 {
+        margin: 10px 0px 10px;
+        text-align: initial;
+    }
+
+    .blog_titles p {
+        color: #fff;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 2;
+    }
+
+
+    .blog_img .blog_date {
+        height: 45px;
+        width: 45px;
+        top: 5px;
+        right: 5px;
+        padding-top: 0px;
+    }
+    .contract_title {
+        padding-left: 40px;
+    }
+
+    .contract_icon a {
+        font-size: 25px;
+        margin-left: 40px;
+    }
+
+    .pera p {
+        font-size: 20px;
+        margin: 10px 40px 30px;
+        line-height: 38px;
+    }
+
+    .frm_icon {
+        left: 60px;
+    }
+
+    .form_control {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .form-controls {
+        margin-top: 10px;
+        width: 78%;
+        height: 100px;
+        margin-left: 38px;
+        padding-left: 50px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .frm_icons {
+        left: 60px;
+        top: 30px;
+    }
+
+    .submit_btn {
+        margin-left: 40px;
+    }
+
+ }
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    .navbar{
+       
+        text-align: center;
+    }
+    .navbar-nav{
+     background: #FFB400;
+        width: 80%;
+    }
+    .nav-link:hover::before{
+     width: 0%;
+     opacity: 0;
+ }
+    .nav-item{
+     padding: 10px 10px;
+     text-align: left;
+    }
+    .nav-link{
+        font-size: 18px;
+        color: #000;
+    }
+    .nav-link:hover{
+        padding-left: 10px;
+        color: #000;
+     }
+
+    #banner_area{
+        height: 100%;
+    }
+
+    .banner_txt {
+        padding-top: 27%;
+    }
+
+    .banner_txt h2 {
+        margin-left: 7%;
+        font-size: 20px;
+        letter-spacing: 0px;
+        padding: 2px 0px;
+    }
+    .banner_btn {
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+
+    .banner_btns .btns {
+        display: block;
+        position: relative;
+        z-index: 99;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+
+    .banner_btns .btns2 {
+        display: block;
+        position: relative;
+        z-index: 99;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        padding: 25px 0 30px;
+    }
+    .title h2 {
+        font-size: 35px;
+    }
+
+
+    .title_p::before {
+        display: none;
+    }
+
+    .title_p::after {
+        display: none;
+    }
+    .about_img {
+        width: 100%;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .about_img::before {
+       display: none;
+    }
+    .about_btn {
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    .trt h2 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .portfolio_btn {
+        margin-top: 0px;
+    }
+    .portfolio_btn .gal_btn {
+        padding: 10px 9px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .single_img {
+        margin-bottom: 30px !important;
+    }
+
+    .blog_titles h5 {
+        margin: 10px 0px 10px;
+        text-align: initial;
+    }
+
+    .blog_titles p {
+        color: #fff;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 2;
+    }
+
+  
+    .blog_img .blog_date {
+        height: 45px;
+        width: 45px;
+        top: 5px;
+        right: 5px;
+        padding-top: 0px;
+    }
+    .contract_title {
+        padding-left: 40px;
+    }
+
+    .contract_icon a {
+        font-size: 25px;
+        margin-left: 40px;
+    }
+    .contract_icon a span {
+        margin-left: 4px;
+    }
+
+    .pera p {
+        font-size: 18px;
+        margin: 10px 40px 30px;
+        line-height: 31px;
+    }
+
+    .frm_icon {
+        left: 60px;
+        top: 13px;
+    }
+
+    .form_control {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .form_control {
+        width: 90%;
+        height: 50px;
+    }
+
+    .form-controls {
+        margin-top: 10px;
+        width: 84%;
+        height: 80px;
+        margin-left: 38px;
+        padding-left: 50px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .frm_icons {
+        left: 60px;
+        top: 30px;
+    }
+
+    .submit_btn {
+        margin-left: 55px;
+        margin-bottom: 30px;
+    }
+ }
+
+
+
+

@@ -1,0 +1,4 @@
+body color:#222222;
+col color:#161616;
+font color:#3F536B;
+button color: #FFB400;
